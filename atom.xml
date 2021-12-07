@@ -6,7 +6,7 @@
   <link href="https://sept0991.github.io/atom.xml" rel="self"/>
   
   <link href="https://sept0991.github.io/"/>
-  <updated>2021-12-07T11:43:34.887Z</updated>
+  <updated>2021-12-07T12:20:41.188Z</updated>
   <id>https://sept0991.github.io/</id>
   
   <author>
@@ -17,24 +17,41 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>My Blog</title>
-    <link href="https://sept0991.github.io/2021/12/07/My-Blog/"/>
-    <id>https://sept0991.github.io/2021/12/07/My-Blog/</id>
-    <published>2021-12-07T07:26:48.000Z</published>
-    <updated>2021-12-07T11:43:34.887Z</updated>
-    
-    <content type="html"><![CDATA[<h2 id="The-Milestone"><a href="#The-Milestone" class="headerlink" title="The Milestone"></a>The Milestone</h2>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;h2 id=&quot;The-Milestone&quot;&gt;&lt;a href=&quot;#The-Milestone&quot; class=&quot;headerlink&quot; title=&quot;The Milestone&quot;&gt;&lt;/a&gt;The Milestone&lt;/h2&gt;</summary>
-      
+    <title>Nand2Tetris</title>
+    <link href="https://sept0991.github.io/2021/12/07/Nand2Tetris-1/"/>
+    <id>https://sept0991.github.io/2021/12/07/Nand2Tetris-1/</id>
+    <published>2021-12-07T12:20:41.000Z</published>
+    <updated>2021-12-07T12:20:41.188Z</updated>
     
     
     
     
-    <category term="闲谈" scheme="https://sept0991.github.io/tags/%E9%97%B2%E8%B0%88/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>数据结构与算法</title>
+    <link href="https://sept0991.github.io/2021/12/07/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/"/>
+    <id>https://sept0991.github.io/2021/12/07/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/</id>
+    <published>2021-12-07T12:19:23.000Z</published>
+    <updated>2021-12-07T12:19:23.801Z</updated>
+    
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>计算机网络</title>
+    <link href="https://sept0991.github.io/2021/12/07/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/"/>
+    <id>https://sept0991.github.io/2021/12/07/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/</id>
+    <published>2021-12-07T12:19:15.000Z</published>
+    <updated>2021-12-07T12:19:15.849Z</updated>
+    
+    
+    
+    
     
   </entry>
   
@@ -42,16 +59,53 @@
     <title>数字电路</title>
     <link href="https://sept0991.github.io/2021/12/07/%E6%95%B0%E5%AD%97%E7%94%B5%E8%B7%AF/"/>
     <id>https://sept0991.github.io/2021/12/07/%E6%95%B0%E5%AD%97%E7%94%B5%E8%B7%AF/</id>
+    <published>2021-12-07T12:16:25.000Z</published>
+    <updated>2021-12-07T14:14:05.936Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="1-0-逻辑代数"><a href="#1-0-逻辑代数" class="headerlink" title="1.0 逻辑代数"></a>1.0 逻辑代数</h2><pre><code>定义: 数字电路分析和设计使用的数学工具在逻辑代数中  有 与(AND) 或(OR) 非(NOT) 3种 基本逻辑运算</code></pre><blockquote><p>主要学的就是真值表</p></blockquote><h3 id="1-1-与运算"><a href="#1-1-与运算" class="headerlink" title="1.1 与运算"></a>1.1 与运算</h3><pre><code>逻辑关系:只有当决定一事件结果的所有条件同时具备时,结果才能发生真值表:      逻辑表达式:F=A·B     实现“与”逻辑的单元电路称为A|B|F                          “与门”0 0 00 1 01 0 01 1 1</code></pre><h3 id="1-2-或运算"><a href="#1-2-或运算" class="headerlink" title="1.2 或运算"></a>1.2 或运算</h3><pre><code>逻辑关系:当满足一个条件,结果就能发生真值表:      逻辑表达式:F=A+BA|B|F           0 0 01 0 10 1 11 1 1</code></pre><h3 id="1-3-非运算"><a href="#1-3-非运算" class="headerlink" title="1.3 非运算"></a>1.3 非运算</h3><pre><code>逻辑关系:逻辑的否定,当条件具备时,结果不会发生,而条件不具备时,结果一定会发生真值表:       逻辑表达式 F=A‘ A|F 0 1 1 0</code></pre><blockquote><p>波形<br>注意:1. 输入波形要穷举所有可能的输入组合(n个输入变量有2^n种可能)    2.输出波形与输入变化对应</p></blockquote><h3 id="1-4-基本定律"><a href="#1-4-基本定律" class="headerlink" title="1.4 基本定律"></a>1.4 基本定律</h3><pre><code>1. 0-1律: A·0=0  A+1=12. 自等律: A·1=A  A+0=A3. 重叠律: A·A=A A+A=A4. 互补律: A·A‘=0 A+A’=15. 交换律: A·B=B·A  A+B=B+A6. 结合律: (A·B)·C=A·(B·C)  (A+B)+C=A+(B+C)7. 分配律: A·(B+C)=AB+AC  (*此律普通代数运算没有)A+BC=(A+B)(A+C)8. 反演律(迪摩根定律;De Morgan): (A·B)’=A‘+B’  (A+B)‘=A’·B‘9. 还原率:A’‘=A</code></pre><h3 id="1-5-三个重要规则"><a href="#1-5-三个重要规则" class="headerlink" title="1.5 三个重要规则"></a>1.5 三个重要规则</h3><pre><code>1. 代入规则:任何一个逻辑等式,如果将等式两边所出现的某一变量都代之以同一逻辑函数,则等式依然成立,这个规则称为代入规则2. 反演规则:对于任意一个逻辑函数式F,如果将其代表式中所有的算符“·”换成“+”,“+”换成“·”,常量“0”换成“1”,“1”换成“0”;原变量换成反变量,反变量换成原变量,则所得到的结果就是F‘,F’称为原函数F的反函数,或称为补函数</code></pre>]]></content>
+    
+    
+    <summary type="html">计算机硬件基础教材之一</summary>
+    
+    
+    
+    
+    <category term="计算机" scheme="https://sept0991.github.io/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA/"/>
+    
+    <category term="硬件" scheme="https://sept0991.github.io/tags/%E7%A1%AC%E4%BB%B6/"/>
+    
+    <category term="电路" scheme="https://sept0991.github.io/tags/%E7%94%B5%E8%B7%AF/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Nand2Tetris</title>
+    <link href="https://sept0991.github.io/2021/12/07/Nand2Tetris/"/>
+    <id>https://sept0991.github.io/2021/12/07/Nand2Tetris/</id>
+    <published>2021-12-07T12:11:17.000Z</published>
+    <updated>2021-12-07T12:11:53.164Z</updated>
+    
+    
+    
+    
+    
+    <category term="计算机 硬件" scheme="https://sept0991.github.io/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA-%E7%A1%AC%E4%BB%B6/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>My Blog</title>
+    <link href="https://sept0991.github.io/2021/12/07/My-Blog/"/>
+    <id>https://sept0991.github.io/2021/12/07/My-Blog/</id>
     <published>2021-12-07T07:26:48.000Z</published>
-    <updated>2021-12-07T12:00:07.887Z</updated>
+    <updated>2021-12-07T12:10:49.629Z</updated>
     
-    <content type="html"><![CDATA[<h4 id="目录"><a href="#目录" class="headerlink" title="目录"></a>目录</h4><ul><li><a href="#10-%E9%80%BB%E8%BE%91%E8%BF%90%E7%AE%97">1.0 逻辑运算</a></li></ul><h2 id="1-0-逻辑运算"><a href="#1-0-逻辑运算" class="headerlink" title="1.0 逻辑运算"></a>1.0 逻辑运算</h2>]]></content>
+    <content type="html"><![CDATA[<h2 id="The-Milestone"><a href="#The-Milestone" class="headerlink" title="The Milestone"></a>The Milestone</h2>]]></content>
     
     
       
       
-    <summary type="html">&lt;h4 id=&quot;目录&quot;&gt;&lt;a href=&quot;#目录&quot; class=&quot;headerlink&quot; title=&quot;目录&quot;&gt;&lt;/a&gt;目录&lt;/h4&gt;&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;#10-%E9%80%BB%E8%BE%91%E8%BF%90%E7%AE%97&quot;&gt;1.0 逻辑运算&lt;/a&gt;&lt;</summary>
+    <summary type="html">&lt;h2 id=&quot;The-Milestone&quot;&gt;&lt;a href=&quot;#The-Milestone&quot; class=&quot;headerlink&quot; title=&quot;The Milestone&quot;&gt;&lt;/a&gt;The Milestone&lt;/h2&gt;</summary>
       
     
     
