@@ -6,7 +6,7 @@
   <link href="https://sept0991.github.io/atom.xml" rel="self"/>
   
   <link href="https://sept0991.github.io/"/>
-  <updated>2021-12-07T07:27:49.957Z</updated>
+  <updated>2021-12-07T11:43:34.887Z</updated>
   <id>https://sept0991.github.io/</id>
   
   <author>
@@ -21,38 +21,43 @@
     <link href="https://sept0991.github.io/2021/12/07/My-Blog/"/>
     <id>https://sept0991.github.io/2021/12/07/My-Blog/</id>
     <published>2021-12-07T07:26:48.000Z</published>
-    <updated>2021-12-07T07:27:49.957Z</updated>
+    <updated>2021-12-07T11:43:34.887Z</updated>
     
-    <content type="html"><![CDATA[<h2 id="Chapter-1"><a href="#Chapter-1" class="headerlink" title="Chapter 1"></a>Chapter 1</h2><h2 id="Contents"><a href="#Contents" class="headerlink" title="Contents"></a>Contents</h2><h2 id="Chapter-2"><a href="#Chapter-2" class="headerlink" title="Chapter 2"></a>Chapter 2</h2><h2 id="Contents-1"><a href="#Contents-1" class="headerlink" title="Contents"></a>Contents</h2><h2 id="References"><a href="#References" class="headerlink" title="References"></a>References</h2><p>Contents</p><hr>]]></content>
+    <content type="html"><![CDATA[<h2 id="The-Milestone"><a href="#The-Milestone" class="headerlink" title="The Milestone"></a>The Milestone</h2>]]></content>
     
     
       
       
-    <summary type="html">&lt;h2 id=&quot;Chapter-1&quot;&gt;&lt;a href=&quot;#Chapter-1&quot; class=&quot;headerlink&quot; title=&quot;Chapter 1&quot;&gt;&lt;/a&gt;Chapter 1&lt;/h2&gt;&lt;h2 id=&quot;Contents&quot;&gt;&lt;a href=&quot;#Contents&quot; class=&quot;</summary>
+    <summary type="html">&lt;h2 id=&quot;The-Milestone&quot;&gt;&lt;a href=&quot;#The-Milestone&quot; class=&quot;headerlink&quot; title=&quot;The Milestone&quot;&gt;&lt;/a&gt;The Milestone&lt;/h2&gt;</summary>
       
     
     
     
+    
+    <category term="闲谈" scheme="https://sept0991.github.io/tags/%E9%97%B2%E8%B0%88/"/>
     
   </entry>
   
   <entry>
-    <title>Hello World</title>
-    <link href="https://sept0991.github.io/2021/12/07/hello-world/"/>
-    <id>https://sept0991.github.io/2021/12/07/hello-world/</id>
-    <published>2021-12-07T07:25:45.663Z</published>
-    <updated>2021-12-07T07:25:45.663Z</updated>
+    <title>数字电路</title>
+    <link href="https://sept0991.github.io/2021/12/07/%E6%95%B0%E5%AD%97%E7%94%B5%E8%B7%AF/"/>
+    <id>https://sept0991.github.io/2021/12/07/%E6%95%B0%E5%AD%97%E7%94%B5%E8%B7%AF/</id>
+    <published>2021-12-07T07:26:48.000Z</published>
+    <updated>2021-12-07T12:00:07.887Z</updated>
     
-    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
+    <content type="html"><![CDATA[<h4 id="目录"><a href="#目录" class="headerlink" title="目录"></a>目录</h4><ul><li><a href="#10-%E9%80%BB%E8%BE%91%E8%BF%90%E7%AE%97">1.0 逻辑运算</a></li></ul><h2 id="1-0-逻辑运算"><a href="#1-0-逻辑运算" class="headerlink" title="1.0 逻辑运算"></a>1.0 逻辑运算</h2>]]></content>
     
     
       
       
-    <summary type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt; for</summary>
+    <summary type="html">&lt;h4 id=&quot;目录&quot;&gt;&lt;a href=&quot;#目录&quot; class=&quot;headerlink&quot; title=&quot;目录&quot;&gt;&lt;/a&gt;目录&lt;/h4&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;#10-%E9%80%BB%E8%BE%91%E8%BF%90%E7%AE%97&quot;&gt;1.0 逻辑运算&lt;/a&gt;&lt;</summary>
       
     
     
     
+    
+    <category term="闲谈" scheme="https://sept0991.github.io/tags/%E9%97%B2%E8%B0%88/"/>
     
   </entry>
   
