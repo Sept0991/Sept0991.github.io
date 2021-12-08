@@ -6,7 +6,7 @@
   <link href="https://sept0991.github.io/atom.xml" rel="self"/>
   
   <link href="https://sept0991.github.io/"/>
-  <updated>2021-12-07T12:20:41.188Z</updated>
+  <updated>2021-12-08T04:55:58.144Z</updated>
   <id>https://sept0991.github.io/</id>
   
   <author>
@@ -15,6 +15,29 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>CSTargets</title>
+    <link href="https://sept0991.github.io/2021/12/08/CSTargets/"/>
+    <id>https://sept0991.github.io/2021/12/08/CSTargets/</id>
+    <published>2021-12-08T04:24:36.000Z</published>
+    <updated>2021-12-08T04:55:58.144Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="Targets-to-complete-in-4-weeks"><a href="#Targets-to-complete-in-4-weeks" class="headerlink" title="Targets to complete in 4 weeks"></a>Targets to complete in 4 weeks</h3><pre><code>1. general questions on combinational logic  2. canonical representations derived from a truth table     3. selecting HDL statements required to implement a combinational logic circuit4. number maximums for different representations and number of bits5. number minimums for different representations and number of bits6. number conversions for different representations and number of bits7. arithmetic when values represented by different representations and number of bits8. tracing the behaviour of the ALU for specific settings of zx, nx, zy, ny, f and no9. ALU status output ng and zr for a specific ALU operation and input values10. Bitwise operators11. selecting HDL statements required to implement a sequential logic circuit12. general questions on data flip flop behaviour13. general questions on random access memory</code></pre><hr><h3 id="Targets-to-complete-in-8-weeks"><a href="#Targets-to-complete-in-8-weeks" class="headerlink" title="Targets to complete in 8 weeks"></a>Targets to complete in 8 weeks</h3><pre><code>1. All of the above2. wiring of control signals in the HACK CPU 3. general questions about symbols in Hack Assembler4. contents of the Hack Assembler&#39;s symbol table for short example programs5. questions about what example Hack Assembler programs do6. general questions about Virtual Machine commands, segments and memory layout7. selecting assembler that implements specific Virtual Machine commands8. selecting Virtual Machine commands to implement expressions9. selecting Virtual Machine commands to implement assignment statements10. selecting Virtual Machine commands to implement method and function calls11. general questions about parsing tokens12. Typewriters, text files and invisible differences13. EBNF, languages and parsing</code></pre><hr><h3 id="Targets-to-complete-in-12-weeks"><a href="#Targets-to-complete-in-12-weeks" class="headerlink" title="Targets to complete in 12 weeks"></a>Targets to complete in 12 weeks</h3><pre><code>1. All of the above2. general questions about Jack3. general questions about syntax analysis and XML4. the evaluation of Jack expressions5. compiler tables required by a Jack Compiler6. code generation by a Jack Compiler7. Jack Operating System8. general questions on signal propagation and power consumption9. general questions on caching</code></pre><hr><blockquote><p><a href="https://myuni.adelaide.edu.au/courses/69723/pages/supervised-quiz-exams-weeks-4-8-and-12?module_item_id=2421364" title="To the reference link">Reference Link</a></p></blockquote>]]></content>
+    
+    
+    <summary type="html">Computer System Questions to complete</summary>
+    
+    
+    
+    
+    <category term="计算机" scheme="https://sept0991.github.io/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA/"/>
+    
+    <category term="硬件" scheme="https://sept0991.github.io/tags/%E7%A1%AC%E4%BB%B6/"/>
+    
+    <category term="电路" scheme="https://sept0991.github.io/tags/%E7%94%B5%E8%B7%AF/"/>
+    
+  </entry>
   
   <entry>
     <title>Nand2Tetris</title>
@@ -60,9 +83,9 @@
     <link href="https://sept0991.github.io/2021/12/07/%E6%95%B0%E5%AD%97%E7%94%B5%E8%B7%AF/"/>
     <id>https://sept0991.github.io/2021/12/07/%E6%95%B0%E5%AD%97%E7%94%B5%E8%B7%AF/</id>
     <published>2021-12-07T12:16:25.000Z</published>
-    <updated>2021-12-07T14:14:05.936Z</updated>
+    <updated>2021-12-08T04:56:07.374Z</updated>
     
-    <content type="html"><![CDATA[<h2 id="1-0-逻辑代数"><a href="#1-0-逻辑代数" class="headerlink" title="1.0 逻辑代数"></a>1.0 逻辑代数</h2><pre><code>定义: 数字电路分析和设计使用的数学工具在逻辑代数中  有 与(AND) 或(OR) 非(NOT) 3种 基本逻辑运算</code></pre><blockquote><p>主要学的就是真值表</p></blockquote><h3 id="1-1-与运算"><a href="#1-1-与运算" class="headerlink" title="1.1 与运算"></a>1.1 与运算</h3><pre><code>逻辑关系:只有当决定一事件结果的所有条件同时具备时,结果才能发生真值表:      逻辑表达式:F=A·B     实现“与”逻辑的单元电路称为A|B|F                          “与门”0 0 00 1 01 0 01 1 1</code></pre><h3 id="1-2-或运算"><a href="#1-2-或运算" class="headerlink" title="1.2 或运算"></a>1.2 或运算</h3><pre><code>逻辑关系:当满足一个条件,结果就能发生真值表:      逻辑表达式:F=A+BA|B|F           0 0 01 0 10 1 11 1 1</code></pre><h3 id="1-3-非运算"><a href="#1-3-非运算" class="headerlink" title="1.3 非运算"></a>1.3 非运算</h3><pre><code>逻辑关系:逻辑的否定,当条件具备时,结果不会发生,而条件不具备时,结果一定会发生真值表:       逻辑表达式 F=A‘ A|F 0 1 1 0</code></pre><blockquote><p>波形<br>注意:1. 输入波形要穷举所有可能的输入组合(n个输入变量有2^n种可能)    2.输出波形与输入变化对应</p></blockquote><h3 id="1-4-基本定律"><a href="#1-4-基本定律" class="headerlink" title="1.4 基本定律"></a>1.4 基本定律</h3><pre><code>1. 0-1律: A·0=0  A+1=12. 自等律: A·1=A  A+0=A3. 重叠律: A·A=A A+A=A4. 互补律: A·A‘=0 A+A’=15. 交换律: A·B=B·A  A+B=B+A6. 结合律: (A·B)·C=A·(B·C)  (A+B)+C=A+(B+C)7. 分配律: A·(B+C)=AB+AC  (*此律普通代数运算没有)A+BC=(A+B)(A+C)8. 反演律(迪摩根定律;De Morgan): (A·B)’=A‘+B’  (A+B)‘=A’·B‘9. 还原率:A’‘=A</code></pre><h3 id="1-5-三个重要规则"><a href="#1-5-三个重要规则" class="headerlink" title="1.5 三个重要规则"></a>1.5 三个重要规则</h3><pre><code>1. 代入规则:任何一个逻辑等式,如果将等式两边所出现的某一变量都代之以同一逻辑函数,则等式依然成立,这个规则称为代入规则2. 反演规则:对于任意一个逻辑函数式F,如果将其代表式中所有的算符“·”换成“+”,“+”换成“·”,常量“0”换成“1”,“1”换成“0”;原变量换成反变量,反变量换成原变量,则所得到的结果就是F‘,F’称为原函数F的反函数,或称为补函数</code></pre>]]></content>
+    <content type="html"><![CDATA[<h2 id="1-0-逻辑代数"><a href="#1-0-逻辑代数" class="headerlink" title="1.0 逻辑代数"></a>1.0 逻辑代数</h2><pre><code>定义: 数字电路分析和设计使用的数学工具在逻辑代数中  有 与(AND) 或(OR) 非(NOT) 3种 基本逻辑运算</code></pre><blockquote><p>主要学的就是真值表</p></blockquote><h3 id="1-1-与运算"><a href="#1-1-与运算" class="headerlink" title="1.1 与运算"></a>1.1 与运算</h3><pre><code>逻辑关系:只有当决定一事件结果的所有条件同时具备时,结果才能发生真值表:      逻辑表达式:F=A·B     实现“与”逻辑的单元电路称为A|B|F                          “与门”0 0 00 1 01 0 01 1 1</code></pre><h3 id="1-2-或运算"><a href="#1-2-或运算" class="headerlink" title="1.2 或运算"></a>1.2 或运算</h3><pre><code>逻辑关系:当满足一个条件,结果就能发生真值表:      逻辑表达式:F=A+BA|B|F           0 0 01 0 10 1 11 1 1</code></pre><h3 id="1-3-非运算"><a href="#1-3-非运算" class="headerlink" title="1.3 非运算"></a>1.3 非运算</h3><pre><code>逻辑关系:逻辑的否定,当条件具备时,结果不会发生,而条件不具备时,结果一定会发生真值表:       逻辑表达式 F=A‘ A|F 0 1 1 0</code></pre><blockquote><p>波形 (这是一个新概念)<br>注意:1. 输入波形要穷举所有可能的输入组合(n个输入变量有2^n种可能)    2.输出波形与输入变化对应</p></blockquote><h3 id="1-4-基本定律"><a href="#1-4-基本定律" class="headerlink" title="1.4 基本定律"></a>1.4 基本定律</h3><pre><code>1. 0-1律: A·0=0  A+1=12. 自等律: A·1=A  A+0=A3. 重叠律: A·A=A A+A=A4. 互补律: A·A‘=0 A+A’=15. 交换律: A·B=B·A  A+B=B+A6. 结合律: (A·B)·C=A·(B·C)  (A+B)+C=A+(B+C)7. 分配律: A·(B+C)=AB+AC  (*此律普通代数运算没有)A+BC=(A+B)(A+C)8. 反演律(迪摩根定律;De Morgan): (A·B)’=A‘+B’  (A+B)‘=A’·B‘9. 还原率:A’‘=A</code></pre><h3 id="1-5-三个重要规则"><a href="#1-5-三个重要规则" class="headerlink" title="1.5 三个重要规则"></a>1.5 三个重要规则</h3><pre><code>1. 代入规则:任何一个逻辑等式,如果将等式两边所出现的某一变量都代之以同一逻辑函数,则等式依然成立,这个规则称为代入规则2. 反演规则:对于任意一个逻辑函数式F,如果将其代表式中所有的算符“·”换成“+”,“+”换成“·”,常量“0”换成“1”,“1”换成“0”;原变量换成反变量,反变量换成原变量,则所得到的结果就是F‘,F’称为原函数F的反函数,或称为补函数</code></pre>]]></content>
     
     
     <summary type="html">计算机硬件基础教材之一</summary>
