@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>疯狂努力使自己变强的路上</title>
+  <title>Soaring</title>
   
   <subtitle>...</subtitle>
   <link href="https://sept0991.github.io/atom.xml" rel="self"/>
   
   <link href="https://sept0991.github.io/"/>
-  <updated>2021-12-08T04:55:58.144Z</updated>
+  <updated>2021-12-08T05:13:43.472Z</updated>
   <id>https://sept0991.github.io/</id>
   
   <author>
@@ -15,6 +15,27 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>AlgorithmAnalysisRoadmap</title>
+    <link href="https://sept0991.github.io/2021/12/08/AlgorithmAnalysisRoadmap/"/>
+    <id>https://sept0991.github.io/2021/12/08/AlgorithmAnalysisRoadmap/</id>
+    <published>2021-12-08T05:07:11.000Z</published>
+    <updated>2021-12-08T05:13:43.472Z</updated>
+    
+    <content type="html"><![CDATA[<p>###Weekly targets<br>    1. Week 1-2: Integer arithmetic, Master theorem, math proofs on complexity<br>    2. Week 3: Linear time sorting and order statistics<br>    3. Week 4-5: Trees, including AVL trees (heaps if time permits)<br>    4. Week 6: Skip list and hashing<br>    5. Week 7: Graphs BFS DFS<br>    6. Week 8: Shortest path<br>    7. Week 9: Minimum spanning tree<br>    8. Week 10-12: Turing machine, halting problem, complexity class, NP-completeness, exam prep</p>]]></content>
+    
+    
+    <summary type="html">计算机算法分析的大致学习方向</summary>
+    
+    
+    
+    
+    <category term="计算机" scheme="https://sept0991.github.io/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA/"/>
+    
+    <category term="算法" scheme="https://sept0991.github.io/tags/%E7%AE%97%E6%B3%95/"/>
+    
+  </entry>
   
   <entry>
     <title>CSTargets</title>
@@ -44,11 +65,19 @@
     <link href="https://sept0991.github.io/2021/12/07/Nand2Tetris-1/"/>
     <id>https://sept0991.github.io/2021/12/07/Nand2Tetris-1/</id>
     <published>2021-12-07T12:20:41.000Z</published>
-    <updated>2021-12-07T12:20:41.188Z</updated>
+    <updated>2021-12-08T05:01:26.825Z</updated>
+    
+    
+    <summary type="html">硬件基础教材</summary>
     
     
     
     
+    <category term="计算机" scheme="https://sept0991.github.io/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA/"/>
+    
+    <category term="硬件" scheme="https://sept0991.github.io/tags/%E7%A1%AC%E4%BB%B6/"/>
+    
+    <category term="电路" scheme="https://sept0991.github.io/tags/%E7%94%B5%E8%B7%AF/"/>
     
   </entry>
   
@@ -57,11 +86,17 @@
     <link href="https://sept0991.github.io/2021/12/07/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/"/>
     <id>https://sept0991.github.io/2021/12/07/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/</id>
     <published>2021-12-07T12:19:23.000Z</published>
-    <updated>2021-12-07T12:19:23.801Z</updated>
+    <updated>2021-12-08T05:11:25.480Z</updated>
+    
+    
+    <summary type="html">数据结构与算法简明摘要</summary>
     
     
     
     
+    <category term="计算机" scheme="https://sept0991.github.io/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA/"/>
+    
+    <category term="算法" scheme="https://sept0991.github.io/tags/%E7%AE%97%E6%B3%95/"/>
     
   </entry>
   
@@ -98,21 +133,6 @@
     <category term="硬件" scheme="https://sept0991.github.io/tags/%E7%A1%AC%E4%BB%B6/"/>
     
     <category term="电路" scheme="https://sept0991.github.io/tags/%E7%94%B5%E8%B7%AF/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Nand2Tetris</title>
-    <link href="https://sept0991.github.io/2021/12/07/Nand2Tetris/"/>
-    <id>https://sept0991.github.io/2021/12/07/Nand2Tetris/</id>
-    <published>2021-12-07T12:11:17.000Z</published>
-    <updated>2021-12-07T12:11:53.164Z</updated>
-    
-    
-    
-    
-    
-    <category term="计算机 硬件" scheme="https://sept0991.github.io/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA-%E7%A1%AC%E4%BB%B6/"/>
     
   </entry>
   
