@@ -6,7 +6,7 @@
   <link href="https://sept0991.github.io/atom.xml" rel="self"/>
   
   <link href="https://sept0991.github.io/"/>
-  <updated>2021-12-08T05:13:43.472Z</updated>
+  <updated>2021-12-17T19:51:14.390Z</updated>
   <id>https://sept0991.github.io/</id>
   
   <author>
@@ -17,16 +17,37 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>KaratsubaMutiplication</title>
+    <link href="https://sept0991.github.io/2021/12/18/KaratsubaMutiplication/"/>
+    <id>https://sept0991.github.io/2021/12/18/KaratsubaMutiplication/</id>
+    <published>2021-12-17T19:43:59.000Z</published>
+    <updated>2021-12-17T19:51:14.390Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="Karatsuba-Mutiplication"><a href="#Karatsuba-Mutiplication" class="headerlink" title="Karatsuba Mutiplication"></a>Karatsuba Mutiplication</h3><pre><code>Karatsuba mutiplication 是一种优化的乘法算法. 可达到O(log3)的时间复杂度,理论上时间复杂度低于学校教的乘法</code></pre>]]></content>
+    
+    
+    <summary type="html">Karatsuba Multiplication</summary>
+    
+    
+    
+    
+    <category term="计算机" scheme="https://sept0991.github.io/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA/"/>
+    
+    <category term="算法" scheme="https://sept0991.github.io/tags/%E7%AE%97%E6%B3%95/"/>
+    
+  </entry>
+  
+  <entry>
     <title>AlgorithmAnalysisRoadmap</title>
     <link href="https://sept0991.github.io/2021/12/08/AlgorithmAnalysisRoadmap/"/>
     <id>https://sept0991.github.io/2021/12/08/AlgorithmAnalysisRoadmap/</id>
     <published>2021-12-08T05:07:11.000Z</published>
-    <updated>2021-12-08T05:13:43.472Z</updated>
+    <updated>2021-12-08T05:20:07.284Z</updated>
     
-    <content type="html"><![CDATA[<p>###Weekly targets<br>    1. Week 1-2: Integer arithmetic, Master theorem, math proofs on complexity<br>    2. Week 3: Linear time sorting and order statistics<br>    3. Week 4-5: Trees, including AVL trees (heaps if time permits)<br>    4. Week 6: Skip list and hashing<br>    5. Week 7: Graphs BFS DFS<br>    6. Week 8: Shortest path<br>    7. Week 9: Minimum spanning tree<br>    8. Week 10-12: Turing machine, halting problem, complexity class, NP-completeness, exam prep</p>]]></content>
+    <content type="html"><![CDATA[<h3 id="Weekly-targets"><a href="#Weekly-targets" class="headerlink" title="Weekly targets"></a>Weekly targets</h3><pre><code>1. Week 1-2: Integer arithmetic, Master theorem, math proofs on complexity2. Week 3: Linear time sorting and order statistics3. Week 4-5: Trees, including AVL trees (heaps if time permits)4. Week 6: Skip list and hashing5. Week 7: Graphs BFS DFS6. Week 8: Shortest path7. Week 9: Minimum spanning tree8. Week 10-12: Turing machine, halting problem, complexity class, NP-completeness, exam prep</code></pre>]]></content>
     
     
-    <summary type="html">计算机算法分析的大致学习方向</summary>
+    <summary type="html">The roadmap of Algorithm Analysis</summary>
     
     
     
