@@ -6,7 +6,7 @@
   <link href="https://sept0991.github.io/atom.xml" rel="self"/>
   
   <link href="https://sept0991.github.io/"/>
-  <updated>2021-12-17T19:51:14.390Z</updated>
+  <updated>2022-06-25T06:20:51.827Z</updated>
   <id>https://sept0991.github.io/</id>
   
   <author>
@@ -15,6 +15,52 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>操作系统（OS）</title>
+    <link href="https://sept0991.github.io/2022/06/25/OS/"/>
+    <id>https://sept0991.github.io/2022/06/25/OS/</id>
+    <published>2022-06-25T04:05:37.000Z</published>
+    <updated>2022-06-25T06:20:51.827Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="初入操作系统"><a href="#初入操作系统" class="headerlink" title="初入操作系统"></a>初入操作系统</h2><pre><code>操作系统从打开电源开始打开电源后神秘的黑色背后发生着什么？</code></pre><p><img src="/2022/06/25/OS/black.png" alt="黑色背景"></p><blockquote><p>要想知道，首先就要了解计算机是怎么工作的</p></blockquote><p>&emsp;<br>&emsp;</p><h3 id="从白纸到图灵机"><a href="#从白纸到图灵机" class="headerlink" title="从白纸到图灵机"></a>从白纸到图灵机</h3><pre><code>计算机工作底层其实就是一个计算模型</code></pre><p><img src="/2022/06/25/OS/tuling.png"></p><blockquote><p>图灵机-&gt;通用图灵机</p></blockquote><p><img src="/2022/06/25/OS/commonTuling.png"></p><blockquote><p>将程序和数据存放到计算机内部的存储器中，这是<strong>冯诺依曼</strong>提出的重要思想！<br>&emsp;<br>&emsp;</p></blockquote><h3 id="从图灵机到计算机"><a href="#从图灵机到计算机" class="headerlink" title="从图灵机到计算机"></a>从图灵机到计算机</h3><pre><code>自冯诺依曼在**1946年**提出了存储程序的思想后，计算机进入了下一个阶段他的思想里，计算机由5大部件组成：输入设备， 输出设备，存储器，运算器，控制器这也是现在计算机的基石和原理，将程序和数据存入内存中，然后通过IP/PC指针进行取址执行</code></pre><blockquote><p>打开电源后，计算机执行的第一句指令是什么？</p></blockquote><pre><code>*PC=？</code></pre><p>&emsp;<br>&emsp;</p><h3 id="操作系统总结"><a href="#操作系统总结" class="headerlink" title="操作系统总结"></a>操作系统总结</h3><p><img src="/2022/06/25/OS/chapter1.png"></p><p>&emsp;<br>&emsp;</p><h2 id="操作系统的特征"><a href="#操作系统的特征" class="headerlink" title="操作系统的特征"></a>操作系统的特征</h2><pre><code>4个基本特征： *并发:两个或者多个事件在同一时间间隔内发生。这些事件宏观上是同时发生的，但微观上是交替发生的。 常混淆的概念--并行：指两个或多个事件在同一时刻同时发生            *共享：资源共享，指系统中的资源可供内存中多个并发执行的进程共同使用            虚拟：把一个物理上的实体变为若干个逻辑上的对应物。物理实体是实际存在的，而逻辑上的对应物是用户感受到的            异步：再多道程序环境下，允许多个程序并发执行，但由于资源有限，进程的执行不是一贯到底的，而是走走停停，以不可预知的速度向前推进，这就是进程的异步性。</code></pre><h3 id="并发"><a href="#并发" class="headerlink" title="并发"></a>并发</h3><pre><code>并发：操作系统中的并发性指计算机系统中同时存在着多个运行着的程序操作系统和程序并发是一起诞生的</code></pre><h3 id="共享"><a href="#共享" class="headerlink" title="共享"></a>共享</h3><pre><code>两种资源共享方式：互斥共享方式：系统中的某些资源，虽然可以提供给多个进程使用，但一个时间段内只允许一个进程访问该资源同时共享方式：系统中的某些资源，允许一个时间段内有多个进程“同时“对它们进行访问所谓的“同时”往往是宏观上的，而在微观，这些进程可能是交替的对该资源进行访问的（即分时共享）</code></pre><p><img src="/2022/06/25/OS/share.png"></p><h3 id="虚拟"><a href="#虚拟" class="headerlink" title="虚拟"></a>虚拟</h3><pre><code>空分复用技术（如虚拟存储技术）时分复用技术（如虚拟处理器技术）背景知识：一个程序需要放入内存并给他分配CPU才能执行</code></pre><h3 id="异步"><a href="#异步" class="headerlink" title="异步"></a>异步</h3><pre><code>只有系统拥有并发性，才有可能导致异步性</code></pre><p><img src="/2022/06/25/OS/yibu.png"></p><h3 id="1-5-三个重要规则"><a href="#1-5-三个重要规则" class="headerlink" title="1.5 三个重要规则"></a>1.5 三个重要规则</h3>]]></content>
+    
+    
+    <summary type="html">计算机硬件基础教材之一</summary>
+    
+    
+    
+    
+    <category term="计算机" scheme="https://sept0991.github.io/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA/"/>
+    
+    <category term="操作系统" scheme="https://sept0991.github.io/tags/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/"/>
+    
+    <category term="OS" scheme="https://sept0991.github.io/tags/OS/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>JAVA</title>
+    <link href="https://sept0991.github.io/2022/01/13/JAVA/"/>
+    <id>https://sept0991.github.io/2022/01/13/JAVA/</id>
+    <published>2022-01-13T04:49:43.000Z</published>
+    <updated>2022-01-13T05:30:58.267Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="JAVA文档注释"><a href="#JAVA文档注释" class="headerlink" title="JAVA文档注释"></a>JAVA文档注释</h2><blockquote><ol><li>javadoc 用于文档和方法注释,格式为/** xxx  */</li><li>在文档注释中可用@author、@version…进行标注</li></ol></blockquote><h2 id="JAVA的类型转换"><a href="#JAVA的类型转换" class="headerlink" title="JAVA的类型转换"></a>JAVA的类型转换</h2><blockquote><ol><li>java中 byte、short、char类型在运算是会自动转换成int类型 </li><li>基本类型 -&gt; 字符串只要加“ ”就可</li><li>String类型 -&gt; 基本类型, 通过基本类型的包装类 Integer.parse() /Double.parse()…</li></ol></blockquote><h2 id="算术运算符"><a href="#算术运算符" class="headerlink" title="算术运算符"></a>算术运算符</h2><blockquote><ol><li>模运算% 本质为a % b = a - a / b * b</li><li>10 % 3 = 1</li><li>-10 % 3 = -1</li><li>10 % -3 = 1</li><li>-10 % -3 = -1</li><li>自增运算符 ++ 当作为独立语句使用时,++a 等价于 a++</li><li>自增运算符 ++ 作为表达式使用时 ++a先自增后赋值, a++先赋值后自增 如int k= ++j; -&gt; j=j+1; -&gt; k=j;</li></ol></blockquote>]]></content>
+    
+    
+    <summary type="html">JAVA</summary>
+    
+    
+    
+    
+    <category term="计算机" scheme="https://sept0991.github.io/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA/"/>
+    
+    <category term="软件" scheme="https://sept0991.github.io/tags/%E8%BD%AF%E4%BB%B6/"/>
+    
+    <category term="java" scheme="https://sept0991.github.io/tags/java/"/>
+    
+  </entry>
   
   <entry>
     <title>KaratsubaMutiplication</title>
